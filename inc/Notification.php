@@ -40,13 +40,13 @@ class Notification {
 	 * Notification WP_Post ID
 	 * @var integer
 	 */
-	private $notification_post_id;
+	public $notification_post_id;
 
 	/**
 	 * Current notification data
 	 * @var object
 	 */
-	private $notification;
+	public $notification;
 
 	public function __construct( $trigger, $tags ) {
 
